@@ -7,14 +7,13 @@ import Swap from "../features/swap/Swap";
 import styles from "../styles/Home.module.css";
 
 const { Content } = Layout;
-const IndexPage = () => (
+const SwapPage = () => (
   <>
     <Head>
       <title>Abc App</title>
       <link rel="icon" href="/favicon.ico" />
     </Head>
     <MainLayout>
-      <Breadcrumb className="my-8"></Breadcrumb>
       <Content>
         <Swap />
       </Content>
@@ -22,4 +21,4 @@ const IndexPage = () => (
   </>
 );
 
-export default IndexPage;
+export default SwapPage;

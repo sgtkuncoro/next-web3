@@ -19,3 +19,40 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.logo {
+  position: relative;
+  display: flex;
+  align-items: center;
+  padding: 16px;
+  cursor: pointer;
+  transition: padding 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+.logo img {
+  display: inline-block;
+  height: 32px;
+  vertical-align: middle;
+}
+.logo h1 {
+  display: inline-block;
+  height: 32px;
+  margin: 0 0 0 12px;
+  color: #fff;
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 32px;
+  vertical-align: middle;
+  animation: pro-layout-title-hide 0.3s;
+}
+/* .site-layout .site-layout-background {
+  background: #fff;
+} */
+
+.ant-layout-header {
+  background: #fff !important;
+  position: relative;
+  display: flex;
+  box-shadow: 0 1px 4px rgb(0 21 41 / 8%);
+  height: 50px;
+  line-height: 50px;
+}
