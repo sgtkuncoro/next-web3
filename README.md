@@ -1,6 +1,6 @@
 # Next + Web3
 
-Frontend starter to build frontend web3 project.
+Frontend starter to build DApp NextJS + Web3 project.
 
 ## Get Started
 
